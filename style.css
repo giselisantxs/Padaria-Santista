@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: segoe UI, roboto, helvetica, arial, sans-serif;
+}
+
+header{
+    display: flex; /**/
+    align-items: center;/**/
+    justify-content: space-evenly;/**/
+    padding: 15px;/**/
+    background-color: rgb(116, 77, 5);/**/
+    overflow: hidden;/**/
+    line-height: 200px;/**/
+    max-height: 200px;/**/
+}
+
+header h1 { /* selecionamos aqui a cor da letra dao nosso h1 ou seja, do nosso ttulo*/
+    color: white;/* chamamos a propriedade color e definimos uma cor  em questo*/
+}
+
+header img{/* */
+    width: 200px;/**/
+    height: 200px;/**/
+}
+
+#menu-header{/* nosso menu de navegação*/
+    display: flex;/*responsavel por colocar os itens na mesma linha (lado a lado)*/  
+    align-items: center;/* alinhar os itens do nosso header para o centro*/
+
+}
+
+#list-menu{/*nossa lista ordenada, aqui mudaremos diretamente nossa lista*/
+    display: flex;/* responsável por colocar os itens na mesma linha (lado a lado)*/
+    margin-right: 1rem;/*margem da direita. 1 rem equivale a 16px, ou seja podemos usa-lo para facilitar a inserção PX*/
+
+}
+
+.item-menu-header{/* nossa li que estão dentro do LIST MENU, onde se encontram os nomes dos iten aprensentados no HEADER*/
+    margin-right: 25px;/* margem da direita*/
+}
+
+.item-menu-header a:hover{ /* nossas li que estão dentro do LIST MENU. (a) nossa tag de link é representada po: HOME/PRODUTOS/CONTATOS, e o Hover responsável pela modificação de cor ao passar o cursor em cima*/
+    color: yellow;/*aqui atribuimos uma cor*/
+    transition: 1s;/* e o tempo em que será exibido ao passar o cursor*/
+
+}
+
+.item-menu-header a{/* nossa li que estão do LIST MENU. (a) no0ssa tag de link que é representada por: HOME/PRODUTOS/CONTATO*/
+    color: white;/* cor da letra1       */
+    text-decoration: none;/*responsável por tirar o sublinhado inferior que estava visível*/
+    font-size: 12px;/*tamanho da letra*/
+}
+
+#botao-header{/* nossa ID do botão de login*/
+    display: flex;/* responsável por colocar os itens na mesma linha (lado a lado)*/
+
+}
+
+#botao-header button{/*aqui chamamos nossa ID e onde queremos fazer alterações, no caso o nosso BOTÃO (button)*/
+padding: 8px;/**/
+background-color: transparent;/* aqui deixxamos o fundo do botão transparente, ou seja sem o fundo branco que estava em primeiro plano*/
+border: none;/* none é usado para retirar algo, nesse caso a borda.*/
+}
+ 
