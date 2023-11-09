@@ -154,4 +154,7 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML *
     align-items: center;
 }
 
-
+#products{
+    padding: 30px;
+    background-color: bisque;
+}
