@@ -147,14 +147,81 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML *
     align-items: center;
 }
 
-.clients-item p {
+.clients-item p { /**/
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 26px;
     margin-top: 10px;
     align-items: center;
 }
 
-#products{
-    padding: 30px;
-    background-color: bisque;
+#products{ /* ID usado para a section das nossos produtos*/
+    padding: 30px; /*Preenchimento*/
+    background: linear-gradient(180deg, #d49664 8.33% , rgba(244, 200, 175, 0) 100%);
+    /* Aqui colocamos uma estelização de fundo em degradé */
+    text-align: center ;
 }
+
+.section-products{ /* Chamamos nossa div Pai para estilização*/
+    margin-top: 3em;/*Espaçamento superior*/
+    display: flex;/*Tornando essa sessão Flex e jogando lado a lado*/
+    align-items: center;/*Alinhando itens ao centro */
+    justify-content: space-evenly;/* Espaçamento justificado */
+}
+
+.img-products{ /*Aqui chamamos nossa imagens para edição*/
+    width: 300px; /*Largura das imagens*/
+    height: 300px; /*Altura das imagens*/
+    border-radius: 50px; /*Arredondamento das bordas*/
+}
+
+.title-products{ 
+    margin-top: 10px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    font-size: 22px;
+}
+
+#products a { /* Aqui chamamos nossa TAG "a" para estilização*/
+    text-decoration: nome; /**/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#products a:hover { /*Efeito ao passar o mouse*/
+    font-size: 22px; /*Tamanho da letra*/
+    transition: 0.8s; /*Tempo de transição ao passar o mouse*/
+    color: tomato; /*Tempo de transição ao passar */
+}
+
+#sobre-nos{
+    background-image: url(imagens/fundo-sobre-nos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px;
+}
+
+#sobre-nos h3 {
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+
+#sobre-nos  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 22px;
+    margin-top: 2em;
+    text-align: left;
+}
+
+
+
