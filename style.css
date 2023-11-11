@@ -223,5 +223,43 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML *
     text-align: left;
 }
 
+footer{
+    padding: 80px;
+    background-image: url(imagens/img-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h2{
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item-menu-footer{ /*Aqui chamamos nossa class das li*/
+    align-items: center;/*Posicionamos ao centro*/
+    margin-top: 30px; /*Espaçamento superior*/
+    display: flex; /*Alinhando os itens lado a lado*/
+}
+
+.item-menu-footer img{/*Aqui chamamos nossa img para estilização*/
+    width: 34px; /*Largura da imagem*/
+    height: 34px; /*Altura da imagem*/
+}
+
+/* Chamem a TAG P para estilização */
+
+.item-menu-footer p{ /*Aqui chamamos nossa tag P para estilização*/
+    color: black; /*cor da letra*/
+    font-size: 24px; /*Tamanho da letra*/
+    font-weight: bold;/**/
+    margin-left: 10px;/**/
+}
 
