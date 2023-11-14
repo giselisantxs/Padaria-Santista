@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Aqui colocarmos estilização no corpo da página (Body) */
+body{
+    width: 100%; /* Largura */
+    height: 100vh; /**/
+    background-image: url(imagens/img-footer.jpg); 
+    background-position: center;/*Posicionamento a imagem ao centro*/
+    background-repeat: no-repeat; /*Colocamos para que a img não se repita */
+    background-size: cover; /*Aqui atribuimos para que a imagem fique sobre toda nossa página*/
+    display: flex; /*Resposavel por colocar os itens na mesma linha (lado a lado)*/
+    align-items: center;/* Alinhar itens ao centro*/
+    justify-content: center; /*Justificar- conteudo ao centro*/
+}
+
+.container{ /* Aqui estamos chmando nossa Class da DIV PAI*/
+    max-width: 120px; /* Atribuimos aqui um tamanho máximo de largura que essa Class irá exercer*/
+    margin: 0 auto; /*Dizermos ao navegador que as margens superior e inferior são iguais a 0 
+    as da esquerda e direita são automáticas */
+}
+
+form{ /*aqui chamamos nosso form para estilização*/
+    background-color: white; /*Colocamos uma cor de fundo */
+    max-width: 500px; /*Atribuimos aqui um tamanho máximo de largura que esse formulário irá 
+    exercer*/
+    height: 450px; /*Largura do formulário*/
+    padding: 40px;/*preenchimento*/
+    border-radius: 20px;/*Arredondamento das bordas do formulário*/ 
+
+}
+
+form h1{ /*Chamamos nosso texto para estilização*/
+    text-align: center; /*Alinhamneto ao centro*/
+    font-size: 30px; /*Tamanho da letra */
+    color: black; /*Cor da letra*/
+}
+
+form p { /*Chamamos nosso paragrafo para estilização */
+    text-align: center; /*Alinhando para o centro nosso paragrafo*/
+    margin: 20px 0; /*dizemos ao navegador que as margens superior e inferior são iguais a 20 e as 
+    da esquerda e direita saõ 0*/
+}
+
+.input-single{ /*Chamamos nossa class que está encabeçada nas div's dos nossos input e Label*/
+    position: relative; /**/
+    margin: 20px;
+}
