@@ -25,13 +25,15 @@ body{
 }
 
 form{ /*aqui chamamos nosso form para estilização*/
-    background-color: white; /*Colocamos uma cor de fundo */
-    max-width: 500px; /*Atribuimos aqui um tamanho máximo de largura que esse formulário irá 
-    exercer*/
-    height: 450px; /*Largura do formulário*/
-    padding: 40px;/*preenchimento*/
-    border-radius: 20px;/*Arredondamento das bordas do formulário*/ 
-
+   background-color: white; /*Colocamos uma cor de fundo */
+   width: 500px; /*Atribuimos aqui um tamanho máximo de largura que esse formulário irá 
+   exercer*/
+   height: 500px; /*Largura do formulário*/
+   align-items: center;
+   margin-left: -170px;
+   padding: 40px;/*preenchimento*/
+   border-radius: 20px; /*Arredondamento das bordas do formulário*/ 
+   
 }
 
 form h1{ /*Chamamos nosso texto para estilização*/
@@ -67,8 +69,8 @@ form p { /*Chamamos nosso paragrafo para estilização */
     padding: 5px; /* Preenchimento do input*/
 }
 
-form > .imput-single > .input:focus ~ label /**/
-form .imput-single .input:valid ~ label{ /**/
+form > .input-single > .input:focus ~ label, /*  */
+form .input-single .input:valid ~ label{ /*  */
     transform: translateY(-25px); /**/
     font-size: 12px; /**/
     color: black; /**/
