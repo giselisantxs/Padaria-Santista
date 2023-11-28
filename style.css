@@ -13,8 +13,7 @@ header{
     padding: 15px;/**/
     background-color: rgb(116, 77, 5);/**/
     overflow: hidden;/**/
-    line-height: 200px;/**/
-    max-height: 200px;/**/
+
 }
 
 header h1 { /* selecionamos aqui a cor da letra dao nosso h1 ou seja, do nosso ttulo*/
@@ -90,7 +89,7 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML *
 
 #img-destaque{
     background-image: url(imagens/padaria.webp);
-    padding: 260px; /*preenchimento*/
+    padding: 20%; /*preenchimento*/
     background-position: center;
     background-size: cover;
 }
@@ -271,7 +270,7 @@ footer h2{
     }
 
     #btn-header button a {
-        display:block ;
+        display: block;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
@@ -282,6 +281,30 @@ footer h2{
 
     #btn-header button a img{
         width: 30%;
+        height: auto;
     }
 
+   
+    header img {
+        width: 40px; /* iremos modificar*/
+        height: 40px;
+    }
+
+    header h1{
+        font-size: 1em;
+    }
+
+    header{
+        padding: 5% ;
+    }
+
+    #img-destaque {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #img-padaria{
+        width: 100%;
+    }
 }
+
