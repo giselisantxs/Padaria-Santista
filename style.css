@@ -95,7 +95,7 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML *
 }
 
 .img-div {
-    padding: 25px;
+    padding: 2.5%;
     background-image: url(imagens/img-div.jpg);
     background-position: center;
     background-size: auto;
@@ -306,5 +306,36 @@ footer h2{
     #img-padaria{
         width: 100%;
     }
+
+    #clients h2{
+        font-size: 1.5em;
+         
+    }
+
+    #clients-list{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .line{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .clients-item p {
+        font-size: 1.8em;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .products {
+        display: block;
+    }
+
 }
+
+
+
+
 
